@@ -101,12 +101,12 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans     &trans         &trans     &trans      &trans         &trans
-&trans      &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans        &kp PG_UP  &kp HOME       &kp UP     &kp END     &kp PAGE_UP    &trans
-&trans      &kp TAB       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans        &kp PG_DN  &kp LEFT       &kp DOWN   &kp RIGHT   &kp PAGE_DOWN  &trans
-&trans      &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans        &trans     &kp BACKSPACE  &kp ENTER  &kp DELETE  &trans         &trans
-&trans      &trans        &trans        &trans        &trans        &trans        &trans     &trans         &trans     &trans      &trans
-                                                                                  &kp A      &kp B          &kp C      &kp D       &kp E
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp K_PREVIOUS  &kp K_PLAY_PAUSE  &kp K_NEXT  &trans      &trans         &trans
+&trans      &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans        &kp PG_UP       &kp HOME          &kp UP      &kp END     &kp PAGE_UP    &trans
+&trans      &kp TAB       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans        &kp PG_DN       &kp LEFT          &kp DOWN    &kp RIGHT   &kp PAGE_DOWN  &trans
+&trans      &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans        &trans          &kp BACKSPACE     &kp ENTER   &kp DELETE  &trans         &trans
+&trans      &trans        &trans        &trans        &trans        &trans        &trans          &trans            &trans      &trans      &trans
+                                                                                  &kp A           &kp B             &kp C       &kp D       &kp E
             >;
 
             sensor-bindings = <&mousescroll>, <&inc_dec_kp PG_UP PG_DN>;
