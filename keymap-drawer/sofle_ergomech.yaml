@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: ▽, type: trans}
+  - BACKSPACE
   - ESC
   - B
   - L
@@ -24,7 +24,7 @@ layers:
   - O
   - U
   - J
-  - {t: ▽, type: trans}
+  - BACKSPACE
   - TAB
   - {t: N, h: LCTRL}
   - {t: R, h: LALT}
